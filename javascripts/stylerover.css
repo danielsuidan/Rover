@@ -1,0 +1,109 @@
+.tabla{
+    width: 20px;
+    height: 20px;
+    background:grey;
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    border: 1px black solid;
+    vertical-align: top;
+}
+#tabla{
+    width: 320px;
+    height: 340px;
+    margin: auto;
+
+}
+body{
+    background: url(../resources/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n{
+    transform: rotate(270deg);
+    color:lime;
+    background-color:red;
+}
+.s{
+    transform: rotate(90deg);
+    color:lime;
+    background-color:red;
+}
+.e{
+    transform: rotate(180deg);
+    color:lime;
+    background-color:red;
+}
+.w{
+    transform: rotate(0deg);
+    color:lime;
+    background-color:red;
+}
+h1{
+    text-align: center;
+    color:brown;
+    font-family: Robotfont;
+    font-size: 5rem;
+}
+input{
+    text-align: center;
+
+}
+.control{
+    text-align: center;
+    margin: 0;
+}
+.oculto{
+    display: none;
+}
+@font-face{
+    font-family:Robotfont;
+    src:url(../resources/Robotfont.woff);
+}
+@font-face{
+    font-family: control;
+    src: url(../resources/Open\ 24\ Display\ St.woff);
+}
+@font-face{
+    font-family: panel;
+    src: url(../resources/Happy\ Square.woff);
+}
+.start{
+    text-align: center;
+}
+button{
+    width:15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: black;
+    color: olivedrab;
+    font-size: 3rem;
+    font-family: Robotfont;
+    border-bottom-color: red;
+    border-top-color: aqua;
+    border-left-color: yellow;
+    border-right-color: blue;
+    
+}
+p{
+    text-align: center;
+  
+}
+.red{
+    font-size: 3rem;
+    color:red;
+    font-family: control;
+}
+.black{
+    font-size: 1rem;
+    font-family: control;
+    color: olivedrab;
+}
+.panel{
+    font-family: panel;
+    font-size: 3rem;
+    color: olivedrab;
+}
+.instruc{
+    vertical-align: 5rem;
+}
